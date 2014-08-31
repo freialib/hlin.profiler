@@ -1,17 +1,15 @@
 {
 	"name": "hlin/profiler",
 	"type": "freia-module",
-	"autoload": {
-		"freia": {
-			"rules": {
-				"identity": [ "debug", "profiler" ],
-				"matches-before": [
-					"hlin.security",
-					"hlin.archetype",
-					"hlin.attribute",
-					"hlin.tools"
-				]
-			}
+	"freia": {
+		"rules": {
+			"identity": [ "debug", "profiler" ],
+			"matches-before": [
+				"hlin.security",
+				"hlin.archetype",
+				"hlin.attribute",
+				"hlin.tools"
+			]
 		}
 	},
 	"keywords": ["freialib"],
